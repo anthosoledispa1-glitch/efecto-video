@@ -46,4 +46,89 @@ body {
   background: #ffd43b;
   border-radius: 50%;
   left: 27px;
-  top:
+  top: 17px;
+  box-shadow: 0 0 20px #ffd43b;
+}
+
+.p1 {
+  transform: rotate(0deg) translateY(-28px);
+}
+
+.p2 {
+  transform: rotate(60deg) translateY(-28px);
+}
+
+.p3 {
+  transform: rotate(120deg) translateY(-28px);
+}
+
+.p4 {
+  transform: rotate(180deg) translateY(-28px);
+}
+
+.p5 {
+  transform: rotate(240deg) translateY(-28px);
+}
+
+.p6 {
+  transform: rotate(300deg) translateY(-28px);
+}
+
+.centro {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background: #8b5a00;
+  border-radius: 50%;
+  left: 32px;
+  top: 32px;
+  z-index: 2;
+}
+
+h1 {
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 30px;
+  text-shadow: 0 0 15px #ffd43b;
+}
+
+p {
+  color: #ffd43b;
+  font-size: 18px;
+}
+
+@keyframes flotar {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="contenido">
+
+  <div class="flor">
+    <div class="petalo p1"></div>
+    <div class="petalo p2"></div>
+    <div class="petalo p3"></div>
+    <div class="petalo p4"></div>
+    <div class="petalo p5"></div>
+    <div class="petalo p6"></div>
+    <div class="centro"></div>
+  </div>
+
+  <h1>Flores para ti 💛</h1>
+
+  <p>Gracias por existir ✨</p>
+
+</div>
+
+</body>
+</html>
